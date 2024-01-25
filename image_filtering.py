@@ -19,9 +19,9 @@ if __name__ == '__main__':
 
     # Step 3: define the filter kernel as described in the homework description as a numpy array
     #(replace with your code)
-    kernel = np.array([[0, -1, 0],
-                       [-1, 5, -1],
-                       [0, -1, 0]])
+    kernel = np.array([[-1, 0, 1],
+                       [-2, 0, 2],
+                       [-1, 0, 1]])
 
 
     # Step 4: filter the image with the kernel
